@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" type="text/css" href="../css/style_index.css" media="screen">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FormuLIST - Bézier Linear e Quadrático</title>
+</head>
+<body>
+
+
+    <header class="" id=""> <!-- esse é o header, que possui a parte de navegação e título (o FormuLIST) -->
+        <section class="" id="titulo">
+            <h1 style="color: #38b6ff;">Formu<span style="color: #ffffff;">LIST</span></h1>
+        </section>
+        <nav class="" id="navegacao">
+            <h2>Navegação - Bézier Linear e Quadrático</h2>
+            <ul class="" id="ul_nav">
+                <li><a href="../../index.html">Retornar à página principal</a></li>
+                <li><a href="#Sobre">Sobre</a></li>
+                <li><a href="#Utilidades">Utilidades</a></li>
+                <li><a href="#Historia">História</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+    <main class="" id="body_main"> <!-- é a box que contém o resto do corpo -->
+    
+        <section id="Sobre" class="box"> <!-- box que explica a fórmula -->
+            <h3>Sobre</h3>
+            <p>
+                As curvas de Bézier são ferramentas matemáticas muito utilizadas em computação gráfica, design e animação. Elas permitem criar curvas suaves a partir de pontos de controle.
+                <br>As versões mais simples são a linear e a quadrática, ideais para introduzir o conceito.
+                <br>Essas fórmulas são:<br>
+                <ul>
+                    
+                    <li><b>Bézier Linear</b> (reta entre <strong>dois pontos</strong> P0 e P1):
+                        <ul>
+                            <li><b>B(t) = (1 - t) * P0 + t * P1</b> (onde t varia de 0 a 1)</li>
+                        </ul>
+                    </li>
+
+                    <li><b>Bézier Quadrática</b> (curva definida por <strong>três pontos</strong> P0, P1 e P2):
+                        <ul>
+                            <li><b>B(t) = (1 - t)^2 * P0 + 2 * (1 - t) * t * P1 + t^2 * P2</b> (onde t varia de 0 a 1)</li>
+                        </ul>
+                    </li>
+                    
+                </ul>
+            </p>
+        </section>
+
+        <section id="Utilidades" class="box"> <!-- box que explica as utilidades das formula -->
+            <h3>Utilidades</h3>
+            <p>
+                Essas fórmulas são utilizadas principalmente para:
+                <ul>
+                    <li><b>Computação gráfica:</b> criação de curvas suaves em softwares de desenho e modelagem.</li>
+                    <li><b>Design digital:</b> definição de formas em vetores e tipografia.</li>
+                    <li><b>Animação:</b> controle de trajetórias e movimentos.</li>
+                    <li><b>Engenharia e CAD:</b> modelagem de superfícies e caminhos.</li>
+                </ul>
+            </p>
+        </section>
+
+        <section id="Historia" class="box"> <!-- box que explica a história da fórmula -->
+            <h3>História</h3>
+            <p>
+                As curvas de Bézier foram desenvolvidas na década de 1960 pelo engenheiro francês <strong>Pierre Bézier</strong>, que trabalhava na indústria automobilística. Ele utilizou essas curvas para projetar formas complexas de carros de maneira precisa e eficiente.
+                <br>Desde então, as curvas de Bézier se tornaram padrão em softwares gráficos e são amplamente usadas em design digital, animação e modelagem 3D.
+            </p>
+        </section>
+
+    </main>
+</body>
