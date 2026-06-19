@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    background-image:url(/src/assets/background_math.jpg);
+    background-image:url(../assets/background_math.jpg);
     color: white;
     font-size: 1rem;
     font-weight: normal;
