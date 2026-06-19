@@ -53,6 +53,13 @@ nav { /*navs foram usadas em navegação e na parte da lista de fórmulas*/
     padding: 0px;
 }
 
+address{
+    display: flex;
+    height: 100%;
+    justify-content:space-between;
+    flex-direction: row;
+}
+
 #navegacao { /*box que contém a lista de navegação*/
     background-color: #1b1b1b;
     width: 60%;
@@ -120,11 +127,11 @@ nav { /*navs foram usadas em navegação e na parte da lista de fórmulas*/
     width: 100%;
     background-color: #1b1b1b;
     display: flex;
-    justify-content: space-evenly;
-    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: row;
     border: #545454 5px solid;
 }
-
 
 a:link{ /*o link em situações normais fica com essas características*/
     color: white;
@@ -153,10 +160,4 @@ a:active{ /*enquanto o usuário está segurando o click direito o link ficará c
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-}
-
-address{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
 }
